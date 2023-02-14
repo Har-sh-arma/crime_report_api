@@ -20,9 +20,9 @@ app.use(serverIsRunning);
 //USING ROUTES
 app.use('/',router);
 
-mongoose.connect(DBURI,()=>{
+mongoose.connect(DBURI).then(()=>{
     console.log('Connected to DB');
-})
+}).catch((err)=>{console.log("could not connect :"+err)})
 
 app.listen(PORT,()=>{
     console.log(
