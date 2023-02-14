@@ -34,6 +34,6 @@ But for verification and categorization by the operator on site; the API require
 The next phase of development will include the endpoint listening service.
 
 ## Technologies Used:
--Nodejs(Server application)
--Express(Routing and request handling)
--MongoDB(Store, retrieve and manipulate data)
+- Nodejs(Server application)
+- Express(Routing and request handling)
+- MongoDB(Store, retrieve and manipulate data)
